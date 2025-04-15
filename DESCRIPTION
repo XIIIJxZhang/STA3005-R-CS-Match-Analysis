@@ -1,0 +1,37 @@
+Package: CSWinAnalysis
+Type: Package
+Title: Tools for Analyzing and Visualizing Counter-Strike Match Data
+Version: 0.1.0
+Authors@R: 
+    person("Junxi", "Zhang", email = "122090742@link.cuhk.edu.cn"),
+    person("Can", "Yang", email = "122090642@link.cuhk.edu.cn"),
+    person("Xu", "He", email = "121090170@link.cuhk.edu.cn")
+Description: 
+    This package offers tools for analyzing and visualizing Counter-Strike match data. Key features include:
+    - **Data Cleaning**: Handling missing values and outliers in match statistics.
+    - **Match Outcome Prediction**: Estimating the probability of a team winning based on in-game statistics.
+    - **Player Performance Evaluation**: Assessing individual player contributions using metrics like K/D ratio and MVPs.
+    - **Visualizations**: Generating plots such as win probability graphs, player performance charts, and heatmaps of match events.
+    Possible extra features include:
+    - **Match Duration Analysis**: Analyzing the distribution of match durations across different maps and game modes.
+    - **Economic Impact Assessment**: Evaluating the economic aspects of the game, such as the impact of winning or losing rounds on team economies.
+    - **Round-by-Round Analysis**: Examining the progression of matches by analyzing each round's outcome and key events.
+    - **Heatmap Generation**: Creating heatmaps to visualize player movements and engagements during matches.
+    Designed for R users interested in e-sports analytics and Counter-Strike data analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    ggplot2,
+    plotly,
+    tidyr,
+    stats,
+    lubridate,
+    stringr,
+    forcats
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown,
+    shiny

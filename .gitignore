@@ -1,0 +1,19 @@
+# R 临时文件
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.RDS
+*.o
+*.so
+*.dll
+
+# 编译和文档生成目录
+/doc
+/Meta
+/src/*.o
+/src/*.so
+
+# 测试和检查输出
+tests/testthat/_snaps
+.Rcheck/
